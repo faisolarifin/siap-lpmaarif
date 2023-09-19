@@ -1,0 +1,121 @@
+h1,h2,h3,h4,h5,h6,li,a,tr,td,th,label,input,select,button,small,.btn,.h5,p,.pro-sidebar-footer, .alert {
+  font-family: 'Poppins';
+}
+body {
+    background:  #F9FAFB;
+}
+.fragment {
+  background: url('../Images/bg.svg') no-repeat;
+  background-size: 100%;
+  overflow: auto;
+}
+#root .navbar {
+    padding: 0;
+    box-shadow: 11rem 4px 9px rgba(201, 201, 201, 0.25);
+}
+#root .sidebar {
+  min-width: 190px;
+  width: 210px;
+  box-shadow: 1px 4px 9px rgba(201, 201, 201, 0.25);
+}
+.navbar-brand h6 {
+  margin-left: 14px;
+}
+.file-download-box {
+  background: #f5f2f2;
+  margin: 0 2rem;
+  padding: 1.1rem;
+  text-align: center;
+  border-radius: 10%;
+}
+.container-begin {
+    padding: 0 1.1rem 1.1rem;
+    margin: 6.4rem .2rem 1rem 13.8rem;
+}
+.container-begin .bread {
+  margin: 1.3rem 0 .9;
+}
+.begin {
+  background-color: #fff;
+  padding: 1.7rem;
+  box-shadow: 3px 1px 45px -24px rgba(189,189,189,0.38);
+}
+.user-profile button {
+  padding: 0;
+}
+#root .navbar .dropdown-menu {
+  right: 0;
+}
+.user-profile img {
+  max-width: 40px;
+}
+.navbar .container-fluid {
+  margin-left: 7.5rem;
+}
+.user-profile .dropdown-menu[data-bs-popper] {
+  left: auto;
+  right: 0;
+}
+.user-profile .img-profile img {
+  max-width: 50px;
+}
+.user-profile .title-profile {
+  min-width: 10rem;
+}
+.user-profile .dropdown-item {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: .8rem 0;
+}
+.logo img {
+  max-width: 50px;
+}
+.table .dropdown button::after {
+  display: none;
+}
+.breadcrumb a, #root .breadcrumb .active {
+  color: #333;
+  text-decoration: underline;
+}
+#root .breadcrumb-item:not(:first-child)::before {
+  content: '>>';
+  color: #222;
+}
+.container-begin .nav a {
+  margin-right: 15px;
+  background-color: #fff;
+  color: #222;
+}
+#root .container-begin .nav .active {
+  background-color: #15613A;
+  border-color: #15613A;
+  color: #fff;
+}
+
+.container-begin th, .container-begin td {
+  font-size: 12px;
+}
+
+@media (min-width: 992px) {
+  .breadcrumb .breadcrumb-item {
+    font-size: 14px;
+  }
+  .pro-menu li {
+    margin: 5px 15px 0 0;
+    font-size: 14px;
+  }
+  .pro-menu .active li {
+    background: linear-gradient(90deg, #2089FE -16.44%, rgba(71, 201, 253, 0.6) 136.99%);
+    box-shadow: 0px 0px 19px -7px #399EFE;
+    border-radius: 0px 10px 10px 0px;
+  }
+  .pro-menu .side-icon {
+    margin-right: 0 !important;
+  }
+}
